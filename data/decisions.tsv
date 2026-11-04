@@ -624,7 +624,7 @@ if_mt7921	drop	does not build in releng/15.1 yet (FreeBSD's default module list 
 if_mt7925	drop	does not build in releng/15.1 yet (FreeBSD's default module list omits it); MediaTek MT7925 Wi-Fi 7 (mt76, LinuxKPI)
 if_ath10k	keep	Qualcomm Wi-Fi 5 (ath10k, LinuxKPI)
 if_ath11k	drop	does not build in releng/15.1 yet (FreeBSD's default module list omits it); Qualcomm Wi-Fi 6/6E (ath11k, LinuxKPI)
-if_ath12k	drop	does not build in releng/15.1 yet (FreeBSD's default module list omits it); Qualcomm Wi-Fi 7 (ath12k, LinuxKPI)
+if_ath12k	keep	Qualcomm Wi-Fi 7 (ath12k, LinuxKPI)
 if_rge	drop	RTL8125 is covered by Realtek's own driver (vendored as the re kext, E21 D14)
 linuxkpi_wlan	keep	LinuxKPI 802.11 layer for iwlwifi/rtw88/rtw89/mt76/ath1xk; a kext once wlan leaves the kernel (E21 D11)
 athk_common	keep	regulatory code ath10k links against (LinuxKPI Qualcomm Wi-Fi)
